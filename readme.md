@@ -1,8 +1,10 @@
-# EF234301_WEBPRO(E)_MID
+# Sistem_Manajemen_Rekam_Medis1
 
-| NRP | Name |
+| NPM | Name |
 | --- | --- |
-| 5025211015 | Muhammad Daffa Ashdaqfillah |
+| 22.01.4846 | Mohamad Afid Yoga Pratama Putra |
+| 22.01.4813 | Imam Subekti |
+| 22.01.4838 | Muhammad Nabil Amani |
 
 
 
@@ -129,19 +131,34 @@ CREATE TABLE rekams (
 To initiate Laravel Breeze, you can follow the following steps:
 
 1. Open the terminal and navigate to your Laravel project directory.
-2. Run the following command to install Laravel Breeze:
-    
+2. Install Node.js Dependencies:
+   
+    ```bash
+    npm install
+    ```
+3. Run the following command to install Laravel Breeze:
+
     ```bash
     composer require laravel/breeze --dev
     ```
     
-3. After the installation process is complete, run the following command to initiate Laravel Breeze:
+4. After the installation process is complete, run the following command to initiate Laravel Breeze:
     
     ```bash
     php artisan breeze:install
     ```
     
-4. Laravel Breeze will create all the necessary basic authentication features, including user authentication, registration, and password reset, which are powered by Laravel Fortify.
+5. Start the Vite Development Server:
+
+    ```bash
+    npm run dev
+    ```
+6. Getting Started with Laravel:
+
+   ```bash
+    php artisan serve
+    ```
+7. Laravel Breeze will create all the necessary basic authentication features, including user authentication, registration, and password reset, which are powered by Laravel Fortify.
 
 ### 2. Add Rekam Medis
 
